@@ -6,7 +6,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const { timezone, format, clockchannel, updateinterval, token} = require('./config.js');
-
+ 
 //'ready' event
 client.once('ready', () => {
   //init time
